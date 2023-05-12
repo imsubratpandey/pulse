@@ -45,7 +45,7 @@ Open a new terminal in client directory and start the app
 
 ## Tech Stack
 
-React, NodeJS, MongoDB, Express, Socket.IO
+React.js, Node.js, MongoDB, Express.js, Socket.IO
 
 ## Created by
 [Subrat Pandey](https://github.com/32bitdev)
