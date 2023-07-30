@@ -1,6 +1,14 @@
-## Pulse - A Chatting App
+## Pulse
 
 You like chat. Pulse likes you.
+
+Pulse is a real-time chat application which let's you text to other people. With pulse you can also create colorful avatar for your profile. Pulse uses Socket.IO to send or receive messages in real-time and MongoDB to store your conversation history.
+
+# Preview
+<img src="/preview/preview_1.png" width="400"> <img src="/preview/preview_2.png" width="400">
+
+## Website Link
+[Pulse Messenger Website](https://pulse-messenger.onrender.com)
 
 ## Requirements
 
