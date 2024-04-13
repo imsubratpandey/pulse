@@ -56,4 +56,4 @@ Open a new terminal in client directory and start the app
 React.js, Node.js, MongoDB, Express.js, Socket.IO
 
 ## Created by
-[Subrat Pandey](https://github.com/32bitdev)
+[Subrat Pandey](https://github.com/imsubratpandey)
