@@ -18,7 +18,7 @@ export default function Register() {
     };
     const [values, setValues] = useState({ username: "", email: "", password: "", confirmPassword: "" });
     useEffect(() => {
-        if (localStorage.getItem(process.env.PULSE_APP_LOCALHOST_KEY)) {
+        if (localStorage.getItem(process.env.REACT_APP_LOCALHOST_KEY)) {
             if (!navigate) return;
             navigate("/");
         }
@@ -31,7 +31,7 @@ export default function Register() {
             if (data.status === false)
                 toast.error(data.msg, toastOptions)
             else if (data.status === true) {
-                localStorage.setItem(process.env.PULSE_APP_LOCALHOST_KEY, JSON.stringify(data.user));
+                localStorage.setItem(process.env.REACT_APP_LOCALHOST_KEY, JSON.stringify(data.user));
                 navigate("/");
             }
         }
